@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="assets/icon.jpg">
+</head>
+<body>
+    <header>
+        <nav class="bg-[#0F1111] h-16 flex justify-evenly items-center text-white text-sm">
+            <a href="#" class="border border-transparent p-1 hover:border-white">
+                <img src="assets/amazon_logo.png" alt="" class="w-24 h-10 mt-2"/>
+            </a>
+
+            <div class="border border-transparent p-1 hover:border-white">
+                <p class="text-xs pl-3">Enviar a:</p>
+                <div class="flex items-center gap-1">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="font-bold">VENEZUELA PAPI</p>
+                </div>
+            </div>
+
+            <div class="text-black flex h-12 p-1">
+                <select class="bg-[#E6E6E6] px-2 rounded-lg rounded-r-none">
+                    <option>Todos</option>
+                </select>
+                <input type="text" placeholder="Buscar en Amazon" class="w-[780px] pl-2 text-base"/>
+                <div class="bg-orange-300 rounded-lg rounded-l-none p-2">
+                    <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="flex border border-transparent p-1 hover:border-white">
+                <img src="assets/bandera.png" class="h-4 w-5 mt-0.5"/>
+                <select class="bg-transparent font-bold">
+                    <option>ES</option>
+                </select>
+            </div>
+
+            <div class="border border-transparent p-1 hover:border-white">
+                <p class="text-xs pl-1">Hola, inicia sesion</p>
+                <select class="bg-transparent font-bold">
+                    <option>Cuentas y listas</option>
+                </select>
+            </div>
+
+            <div class="border border-transparent p-1 hover:border-white">
+                <p class="text-xs">Devoluciones</p>
+                <p class="font-bold">Y pedidos</p>
+            </div>
+
+            <div class="flex items-center border border-transparent p-1 hover:border-white">
+                <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+                <p class="font-bold pt-2">Carrito</p>
+            </div>
+
+        </nav>
+
+        <div class="bg-[#222F3D] h-10 flex items-center text-white text-sm pl-4">
+            <div class="flex items-center gap-1 border border-transparent p-2 hover:border-white">
+                <i class="fa-solid fa-bars fa-lg"></i>
+                <p class="font-bold">Todo</p>
+            </div>
+
+            <ul class="flex items-center">
+                <li class="border border-transparent p-2 hover:border-white">Mejores ofertas</li>
+                <li class="border border-transparent p-2 hover:border-white">Servicio Personal</li>
+                <li class="border border-transparent p-2 hover:border-white">Mas vendidos</li>
+                <li class="border border-transparent p-2 hover:border-white">Tarjetas de regalo</li>
+                <li class="border border-transparent p-2 hover:border-white">Prime Video</li>
+            </ul>
+        </div>
+
+    </header>
+
+    <main class="bg-[#E6E6E6] pb-5">
+        <div class="bg-[url('./assets/banner.jpg')] bg-cover h-80 flex justify-center items-end mb-8">
+
+        </div>
+
+        <div class="grid grid-cols-4 grid-rows-2 gap-4 px-4">
+            <div class="bg-white p-4">
+                <h2 class="text-xl font-bold">Shop school essentials</h2>
+                <img src="./assets/1.jpg" alt="" class="my-3"/>
+                <p class="text-[#007185] text-xs">Mirar mas</p>
+            </div>
+            <div class="bg-white p-4">
+                <h2 class="text-xl font-bold">Cosas de cocina</h2>
+                <img src="assets/2.jpg" alt="" class="my-3"/>
+                <a href="#" class="text-xs text-[#007185]">Comprar Ahora</a>
+            </div>
+            <div class="bg-white p-4">
+                <h2 class="text-xl font-bold">Limpieza Personal</h2>
+                <img src="assets/3.jpg" alt="" class="my-3"/>
+                <a href="#" class="text-xs text-[#007185]">Comprar Ahora</a>
+            </div>
+            <div class="bg-white p-4">
+                <h2 class="text-xl font-bold">Cosas de belleza
+                </h2>
+                <img src="assets/4.jpg" alt="" class="my-3"/>
+                <a href="#" class="text-xs text-[#007185]">Comprar Ahora</a>
+            </div>
+            <div class="bg-white p-4">
+                <h2 class="text-xl font-bold">Electronicos</h2>
+                <img src="assets/5.jpg" alt="" class="my-3"/>
+                <a href="#" class="text-xs text-[#007185]">Mirar mas</a>
+            </div>
+            <div class="bg-white p-4">
+                <h2 class="text-xl font-bold">Juguetes del centro</h2>
+                <img src="assets/6.jpg" alt="" class="my-3"/>
+                <a href="#" class="text-xs text-[#007185]">Comprar Ahora</a>
+            </div>
+            <div class="bg-white p-4">
+                <h2 class="text-xl font-bold">Cosas para estar yuca</h2>
+                <img src="assets/7.jpg" alt="" class="my-3"/>
+                <a href="#" class="text-xs text-[#007185]">Comprar Ahora</a>
+            </div>
+            <div class="bg-white p-4">
+                <h2 class="text-xl font-bold">Animales</h2>
+                <img src="assets/8.jpg" alt="" class="my-3"/>
+                <a href="#" class="text-xs text-[#007185]">Mirar mas</a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="bg-[#37475A] h-12 flex justify-center items-center text-white text-sm">
+            <a href="#">Volver al inicio</a>
+        </div>
+
+        <div class="bg-[#232F3E] h-[340px] text-[#DDDDDD] text-sm flex justify-evenly py-10">
+            <ul class="space-y-2.5">
+                <li class="font-bold text-base text-white">Conócenos</li>
+                <li>Carreras</li>
+                <li>Blog</li>
+                <li>Acerca de Amazon</li>
+                <li>Relaciones con los inversores</li>
+                <li>Dispositivos de Amazon</li>
+                <li>Ciencia de Amazon/li>
+            </ul>
+            <ul class="space-y-2.5">
+                <li class="text-base font-bold text-white">Gana dinero con nosotros</li>
+                <li>Vende productos en Amazon</li>
+                <li>Vende en Amazon Business</li>
+                <li>Vende aplicaciones en Amazon</li>
+                <li>Conviértete en afiliado</li>
+                <li>Anuncia tus productos</li>
+                <li>Autopublica con nosotros</li>
+                <li>Aloja un Amazon Hub</li>
+                <li>Ver más formas de ganar dinero con nosotros</li>
+            </ul>
+
+            <ul class="space-y-2.5">
+                <li class="text-base font-bold text-white">Productos de pago de Amazon</li>
+                <li>Tarjeta de negocios Amazon</li>
+                <li>Compra con puntos</li>
+                <li>Recarga tu saldo</li>
+                <li>Convertidor de divisas de Amazon</li>
+            </ul>
+
+            <ul class="space-y-2.5">
+                <li class="text-base font-bold text-white">Permítanos ayudarle</li>
+                <li>Amazon y COVID-19</li>
+                <li>Tu cuenta</li>
+                <li>Tus pedidos</li>
+                <li>Tarifas y políticas de envío</li>
+                <li>Devoluciones y reemplazos</li>
+                <li>Administra tu contenido y dispositivos</li>
+                <li>Asistente de Amazon</li>
+                <li>Ayuda</li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+</html>
